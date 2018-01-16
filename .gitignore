@@ -1,0 +1,58 @@
+#Mac OS X
+.DS_Store
+
+#IntellJ
+.idea
+*.iws
+*.iml
+*.ipr
+*.ids
+*.orig
+classes/
+
+#Gradle
+.gradle
+build/
+out/
+bin/
+
+
+######################
+# Eclipse
+######################
+*.pydevproject
+.project
+.metadata
+.apt_generated
+tmp/
+tmp/**/*
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings/
+.loadpath
+.factorypath
+/src/main/resources/rebel.xml
+
+# External tool builders
+.externalToolBuilders/**
+
+
+# Vim swap files
+.*.sw?
+
+#Other
+src/main/node_modules
+
+######################
+# Node
+######################
+/node/
+node_tmp/
+node_modules/
+npm-debug.log.*
+package-lock.json
+
